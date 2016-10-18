@@ -62,5 +62,5 @@ target/
 .python-version
 
 # local
-.tmuxp.yml
+.tmuxp.yaml
 .pylintrc

@@ -11,17 +11,21 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     'Click>=6.0',
-    # TODO: put package requirements here
+    'docker-py>=1.9',
+    'selenium==2.56.3'
 ]
 
 test_requirements = [
+    'pytest',
     # TODO: put package test requirements here
 ]
 
 setup(
     name='dockerff',
     version='0.1.0',
-    description="Manage and control FireFox instances inside the docker containers",
+    description="""
+    Manage and control FireFox instances inside the docker containers
+    """,
     long_description=readme + '\n\n' + history,
     author="Alexander Chirkunov",
     author_email='istinspring@gmail.com',
@@ -40,7 +44,7 @@ setup(
     install_requires=requirements,
     license="BSD license",
     zip_safe=False,
-    keywords='dockerff',
+    keywords='docker, selenium, firefox',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
