@@ -8,6 +8,6 @@ tox==2.4.1
 coverage==4.2
 Sphinx==1.4.8
 cryptography==1.5.2
-PyYAML==3.12
+PyYAML==5.1
 pytest==3.0.3
 ipython==5.1.0
