@@ -10,4 +10,4 @@ Sphinx==1.4.8
 cryptography==1.5.2
 PyYAML==3.12
 pytest==3.0.3
-ipython==5.1.0
+ipython==7.18.1
